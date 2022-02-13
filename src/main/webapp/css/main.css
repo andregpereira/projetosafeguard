@@ -1,0 +1,133 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: Lato;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: #233a69;
+}
+
+header {
+  padding: .75rem 0;
+  background-color: #1aa784;
+}
+
+figure a {
+	color: rgb(0, 64, 128);
+}
+
+
+footer {
+  background-color: #233a69;
+  padding: 1.25rem 0;
+}
+
+.selecionado {
+  font-weight: 600;
+  color: #ffffff!important;
+}
+
+.nav-link {
+  color: #eeeeee;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-link:focus {
+  color: #ffffff;
+}
+
+.redes-sociais {
+  font-size: 20px;
+}
+
+.github:hover {
+  color: #333333;
+}
+
+.github:focus {
+  color: #333333;
+}
+
+.facebook:hover {
+  color: #4267B2;
+}
+
+.facebook:focus {
+  color: #4267B2;
+}
+
+.instagram:hover {
+  color: #8a3ab9;
+}
+
+.instagram:focus {
+  color: #8a3ab9;
+}
+
+.youtube:hover {
+  color: #c4302b;
+}
+
+.youtube:focus {
+  color: #c4302b;
+}
+
+.reddit:hover {
+  color: #FF5700;
+}
+
+.reddit:focus {
+  color: #FF5700;
+}
+
+.twitter:hover {
+  color: #00acee;
+}
+
+.twitter:focus {
+  color: #00acee;
+}
+
+
+.meio {
+  background-color: #45139c;
+  background-image: url("../img/tropical-island.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
+	background-color: #839d9d;
+}
+
+.conteudo {
+  background-color: #839d9d;
+  padding: 1.75rem 1.8rem;
+}
+
+.caption {
+	text-align: center;
+	line-height: 1.4rem;
+}
+
+.branco {
+  color: #ffffff;
+}
+
+@media(max-width : 576px) {
+  .conteudo {
+    padding: 1.75rem .8rem;
+  }
+}
+
